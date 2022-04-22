@@ -5,3 +5,7 @@ module Source
     end
 
 end
+
+function LoadLib(lname)
+    include("lib/" * lname * ".jl")
+end
